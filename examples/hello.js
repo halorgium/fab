@@ -69,7 +69,7 @@ module.exports = fab
     ( /7/ ) // fab-style
       ( fab.tmpl, "Hello, <%= this[ 0 ] %>!" )
   
-      ( /^\/(\w+)$/ )
+      ( /\/(\w+)$/ )
         ( fab.capture )
         ( [ "world" ] )
     
